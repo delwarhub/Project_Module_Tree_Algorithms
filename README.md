@@ -75,12 +75,3 @@ python3 main.py
 ```
 If there are any dependency issues related to SHAP or LIME not compatibile on local environment try using the .ipynb notebook instead. 
 ```
-## Tree Algorithms
-overall performance and the explainability aspect (supported with visualizations) of the model predictions.
-### Tasks:
-1.	Choose a dataset of your choice (language, vision, medical, ...)
-2.	Implement a model that performs on the selected task of the dataset
-3.	Perform hyper-parameter search to find the optimal model configuration(s)
-4.	Perform global and local feature importance analysis
-5.	Generate visualizations with selected some examples (3-5 correct and 3-5 failed failed samples) - think about adding counter factual examples and show the performance change
-6.	Present all the findings (trees, features, examples, etc.) by showing the explainability aspect of the learned model

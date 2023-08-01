@@ -1,0 +1,29 @@
+# GENERAL
+PATH_TO_TRAIN_FILE: "./data/BC7-LitCovid-Train.csv"
+PATH_TO_TEST_FILE: "./data/BC7-LitCovid-Test-GS.csv"
+
+PATH_TO_MODEL_OUTPUT_DIR: "./saved_models/"
+
+USE_TRAINED_MODEL: True
+PATH_TO_TRAINED_MODEL: "./100_RFC.pkl"
+
+# SHAP 
+PLOT_SHAP_SUMMARY_PLOT: True
+PLOT_SHAP_CLASSWISE_SUMMARY_PLOT: True
+
+PLOT_SHAP_FORCE_PLOT: True
+FP_SAMPLE_INDICES: [2, 3, 88]
+FP_SAMPLE_CLASSES: ["prevention", "treatment", "diagnosis"]
+
+PLOT_SHAP_WATERFALL_PLOT: True
+WP_SAMPLE_INDICES: [2, 3, 88]
+WP_SAMPLE_CLASSES: ["prevention", "treatment", "diagnosis"]
+
+# LIME
+PLOT_LIME_TOP_K: True
+TOP_K: 2
+TOP_K_SAMPLE_INDEX: [7]
+
+PLOT_LIME_WITH_TEXT: True
+LI_SAMPLE_INDICES: [7]
+LI_SAMPLE_CLASSES: ["prevention", "treatment", "diagnosis"]
